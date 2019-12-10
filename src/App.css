@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+.wrapper{
+    position: absolute;
+    top : 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.with-image{
+    background-image: url("./image2.png");
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: "100%";
+}
+ 
+h1{
+margin-left: 470px;
+margin-top: 200px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 72px;
+font-style: bold;
+
+color: #FFFFFF;
+}
+
+h5{
+margin-left: 60px;
+margin-right:60px ;
+margin-top:60px ;
+
+color: #FFFFFF;
+}
+
+
+p{
+    position: absolute;
+    width: 520px;
+    height: 36px;
+    left: 380px;
+    top: 325px;
+
+font-family: Poppins;
+text-align: center;
+color: #FFFFFF; 
+   
+}
+
+.Component2{
+    
+    width: 195px;
+    height: 55px;
+    left: 530px;
+    padding-left:20px;
+    margin-left: -250px;
+    margin-top: 411px;
+    text-align: center;
+    
+    background: #E67E22;
+    border-radius: 50px;
+    color: white;
+    
+
+}
+
+.path{
+    background-image:url("./gariss.png");
+    margin-right: 20px;
+}
