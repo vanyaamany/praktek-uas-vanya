@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
-import "./icon.png";
+// untuk ngeimport icon harusnya kaya gini
+import ImgIcon from "./icon.png";
 
 
 class App extends Component {
@@ -24,7 +25,7 @@ class App extends Component {
 
 
                 <div className="icon">
-                    <img src={"./icon.png"} alt={"icon"}
+                    <img src={ImgIcon} alt={"icon"}
                     />
               </div>
 
