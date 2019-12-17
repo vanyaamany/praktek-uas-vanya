@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import "./icon.png";
 
 
 class App extends Component {
@@ -22,9 +23,10 @@ class App extends Component {
                 </div>
 
 
-                <div className="right">
-                    <i class="path"></i>
-                </div>
+                <div className="icon">
+                    <img src={"./icon.png"} alt={"icon"}
+                    />
+              </div>
 
             </div>
         )
